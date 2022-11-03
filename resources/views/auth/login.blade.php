@@ -1,6 +1,6 @@
 @extends('layouts.main')
 
-@section('content')
+@section('cont')
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
@@ -48,6 +48,9 @@
                                         {{ __('Remember Me') }}
                                     </label>
                                 </div>
+                            </div>
+                            <div class="col-md-5 offset-md-4">
+                                <a href="/register" class="text-secondary">don't have an account? </a>
                             </div>
                         </div>
 

@@ -1,4 +1,4 @@
-@extends('auth.login');
+@extends('auth.login')
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>C-Reports</title>
+    <title>RDV Solutions</title>
     <!-- Custom fonts for this template-->
     <link href="{{ asset('admin_assets/vendor/fontawesome-free/css/all.min.css') }}" rel="stylesheet"
         type="text/css">
@@ -258,7 +258,7 @@
 
                 <!-- Begin Page Content -->
 
-                @yield('content')
+                @yield('contents')
                 <!-- /.container-fluid -->
 
             </div>
