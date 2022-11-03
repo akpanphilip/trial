@@ -258,7 +258,7 @@
 
                 <!-- Begin Page Content -->
 
-                @yield('contents')
+                @yield('content')
                 <!-- /.container-fluid -->
 
             </div>

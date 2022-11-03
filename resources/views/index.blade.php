@@ -1,5 +1,5 @@
 @extends('layouts.main')
-@section('main')
+@section('content')
 <div class="banner">
     <p class="banner-text">
         Returning violence for violence multiplies violence, 

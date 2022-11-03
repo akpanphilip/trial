@@ -1,6 +1,6 @@
 @extends('layouts.main')
 
-@section('main')
+@section('content')
 <main>
   <header>
     <h1>ABOUT US</h1>

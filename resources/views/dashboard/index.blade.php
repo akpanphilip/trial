@@ -1,5 +1,5 @@
 @extends('layouts.admin')
-@section('contents')
+@section('content')
 
 <div class="container-fluid">
 

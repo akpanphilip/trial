@@ -40,7 +40,7 @@
   </div>
 </nav>
 
-@yield('main')
+@yield('content')
  
 @extends('layouts.footer')
 </html>

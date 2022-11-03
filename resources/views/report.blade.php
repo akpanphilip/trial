@@ -1,5 +1,5 @@
 @extends('layouts.main')
-@section('main')
+@section('content')
     <div class="container-fluid">
         @if (session('status'))
             <div class="alert alert-success" role="alert">
