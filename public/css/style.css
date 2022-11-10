@@ -1,23 +1,27 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-body{
+
+body {
     background-color: #fff;
 }
-.navbar-brand{
+
+.navbar-brand {
     font-weight: 600;
     color: #fff;
     text-shadow: 0 0 12px grey;
     font-size: 30px;
 }
-.nav-link{
+
+.nav-link {
     color: white;
     font-weight: 600;
 }
-.banner{
+
+.banner {
     height: 400px;
     background-image: url('../images/awareness.jpg');
     background-repeat: no-repeat;
@@ -25,47 +29,116 @@ body{
     display: flex;
     align-items: center;
 }
-.banner-text{
+
+.banner-text {
     width: 35%;
     color: #fff;
     font-weight: bold;
     font-size: 35px;
     margin-left: 20px;
-    font-family:cursive;
+    font-family: cursive;
 }
-.report-row{
+
+.report-row {
     margin-top: 5px;
     padding: 60px;
 }
-.report-row input[type=submit]{
+
+.report-row input[type=submit] {
     height: 60px;
     border: none;
 }
-.formBox{
+
+.formBox {
     width: 100%;
 }
-.formImg{
+
+label {
+    font-weight: 400 !important;
+}
+
+.formBox-100 {
+    margin: 120px auto;
+}
+
+.card-header-100 {
+    padding: 30px;
+    text-align: center;
+    background: #c3073f;
+    color: #fff;
+}
+
+.authform {
+    padding: 10px;
+}
+
+.btnSubmit {
+    height: 50px;
+    background: #c3073f;
+    border: none;
+    transition: .4s ease;
+    box-shadow: none;
+}
+
+.btnSubmit:focus {
+    border: none;
+    box-shadow: none;
+}
+
+label {
+    color: #6c757d !important;
+    margin-bottom: 4px;
+}
+
+.btnSubmit:hover {
+    background: transparent;
+    color: #c3073f;
+    border: 1px solid #c3073f;
+    transition: .4s ease;
+}
+
+.bg-main {
+    background: #c3073f;
+}
+
+.form-control {
+    border: 1px solid #ccc !important;
+    box-shadow: none;
+    outline: none;
+}
+
+.form-control:focus {
+    /* border: 2px solid #c3073f; */
+    outline: 1px solid #c3073f5d;
+    box-shadow: none;
+}
+
+.formImg {
     width: 100%;
     height: 450px;
 }
 
-.formImg img{
+.formImg img {
     width: 100%;
     height: 100%;
 }
-.cases{
+
+.cases {
     width: 100%;
     box-shadow: 0 0 5px #fff;
 }
-.cases-image{
+
+.cases-image {
     width: 100%;
     height: 300px;
 }
-.cases-image img{
+
+.cases-image img {
     width: 100%;
     height: 100%;
 }
-.cases-title{
+
+.cases-title {
     width: 100%;
     height: auto;
     color: #fff;
@@ -73,44 +146,49 @@ body{
     text-align: center;
     padding: 5px;
 }
-.report-row{
+
+.report-row {
     margin-bottom: 30px;
 }
-.authform input{
+
+.authform input {
     border: 2px solid grey;
 }
 
 /* About Us Page */
 
-main{
-    
+main {
+
     margin-bottom: 50px;
 }
-header h1{
+
+header h1 {
     color: #c3073f;
     width: 100%;
     text-align: Center;
     height: 50px;
     /* padding: 20px; */
 }
-.about{
+
+.about {
     margin-bottom: 5px;
-    color:#000;
-    background:#fff;
+    color: #000;
+    background: #fff;
 }
-.aboutcont{
+
+.aboutcont {
     text-align: justify;
     /* width: 100%; */
     box-shadow: 9px 9px 9px #695740;
 }
 
-.aboutimg img{
+.aboutimg img {
     width: 100%;
     height: 33.3%;
 }
 
 /* Footer */
-footer{
+footer {
     width: 100%;
     height: 200px;
     color: #4e4650;
@@ -120,11 +198,13 @@ footer{
     text-align: center;
     background-color: #c3073f;
 }
-.footlink{
+
+.footlink {
     color: #695740;
     text-decoration: none;
 }
-.footlink:hover{
+
+.footlink:hover {
     color: #4e4650;
     text-decoration: none;
 }
